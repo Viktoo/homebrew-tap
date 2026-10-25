@@ -2,13 +2,13 @@
 class Pocket < Formula
   desc "Infinite 3D world written by an AI while you walk through it"
   homepage "https://github.com/Viktoo/infinite-pocket"
-  url "https://github.com/Viktoo/infinite-pocket/releases/download/v0.2.0/pocket-0.2.0-macos-arm64.tar.gz"
-  version "0.2.0"
-  sha256 "19ff58ae9fd4b51172fe57f5946ea2dc340e3a4b6fa9527d42b3ea5457b8598f"
+  url "https://github.com/Viktoo/infinite-pocket/releases/download/v0.3.0/pocket-0.3.0-macos-arm64.tar.gz"
+  version "0.3.0"
+  sha256 "a2b8ee5eeadd19f085db2098237af2943bc4a53791f57f6e2f2e54289897fe38"
 
   bottle do
-    root_url "https://github.com/Viktoo/infinite-pocket/releases/download/v0.2.0"
-    sha256 cellar: :any_skip_relocation, all: "77408077ba85872c2162322c3679c8ec905529be706e2a917355138409708047"
+    root_url "https://github.com/Viktoo/infinite-pocket/releases/download/v0.3.0"
+    sha256 cellar: :any_skip_relocation, all: "c55e01417bec5418f8f4a1493a2694b4e58192df33cc09fbc76d360606d88cfe"
   end
 
   depends_on arch: :arm64
